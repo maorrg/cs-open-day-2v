@@ -35,7 +35,7 @@ import {
               props.setSection(1);
             }}
           >
-            <IoIosArrowBack size={16} />
+            <IoIosArrowBack size={30} />
           </ActionIcon>
           <Card shadow="sm" radius="md" style={{ padding: 70 }}>
             <Center style={{ marginBottom: 20 }}>
@@ -61,7 +61,7 @@ import {
             style={{
               width: "5%",
               position: "absolute",
-              bottom: "33%",
+              bottom: "22%",
               width: 270,
             }}
           >
@@ -84,6 +84,17 @@ import {
               <Title size={20} align="center" style={{ marginTop: 10 }}>
                 Compartelo en tus redes
               </Title>
+            </Card>
+            <Card shadow="sm" radius="md">
+              <Center>
+              <Image
+                radius={10}
+                fit="contain"
+                width={132}
+                height={132}
+                src="/cs.jpg"
+              />
+              </Center>
             </Card>
           </Container>
         </Container>

@@ -56,13 +56,11 @@ export const Prompt = (props) => {
         </Card.Section>
         <Container style={{ paddingBottom: 20 }}>
           <Center style={{ marginTop: 15 }}>
-            <Title order={1}> Dream Painter </Title>
+            <Title order={1}> Dream </Title>
           </Center>
 
           <Text size="sm" color="dimmed" align="center">
-            With Fjord Tours you can explore more of the magical fjord
-            landscapes with tours and activities on and around the fjords of
-            Norway
+            Piensa en lo primero que se te ocurra, algo que realmente desees. ¡Realmente veras tus sueños!
           </Text>
         </Container>
 
